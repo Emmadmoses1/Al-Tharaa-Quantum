@@ -3,7 +3,7 @@ services:
     name: al-tharaa-api
     runtime: node
     region: frankfurt
-    plan: starter
+    plan: free
     rootDir: backend
     buildCommand: npm ci || npm install
     startCommand: npm start
